@@ -1,0 +1,215 @@
+<?xml version = "1.0"?>
+
+<GameData>
+
+<Font>
+  <font>font/FreeSerifBold.ttf</font>
+</Font>
+
+
+<bullets>
+    <bulletDistance>220</bulletDistance>
+    <bulletSpeed>170</bulletSpeed>
+    <bulletSpeed1>-170</bulletSpeed1>
+    <bulletDelay>100</bulletDelay>
+    <bulletFile>images/bullet.bmp</bulletFile>
+  </bullets>
+
+
+<World>
+  <worldWidth>3000</worldWidth>
+  <worldHeight>720</worldHeight>
+</World>
+
+<View>
+  <viewWidth>640</viewWidth>
+  <viewHeight>480</viewHeight>
+</View>
+
+<Screen>
+  <screenWidth>640</screenWidth>
+  <screenHeight>480</screenHeight>
+</Screen>
+<!--
+<Background>
+  <hillFile>images/mountain.png</hillFile>
+  <hillWidth>1440</hillWidth>
+  <hillHeight>720</hillHeight>
+  <hillSrcX>0</hillSrcX>
+  <hillSrcY>0</hillSrcY>
+  <hillSpeed hillXspeed="0" hillYspeed="0"/>
+  <hillLoc hillX="0" hillY="0"/>
+  <hillTransparency>true</hillTransparency>
+</Background>
+-->
+
+<Background>
+  <hillFile>images/hillsmod.bmp</hillFile>
+  <hillWidth>1440</hillWidth>
+  <hillHeight>721</hillHeight>
+  <hillSrcX>0</hillSrcX>
+  <hillSrcY>0</hillSrcY>
+  <hillSpeed hillXspeed="0" hillYspeed="0"/>
+  <hillLoc hillX="0" hillY="0"/>
+  <hillTransparency>true</hillTransparency>
+</Background>
+
+
+<Background>
+  <backFile>images/wall1.jpg</backFile>
+  <backWidth>1440</backWidth>
+  <backHeight>720</backHeight>
+  <backSrcX>0</backSrcX>
+  <backSrcY>0</backSrcY>
+  <backSpeed backXspeed="0" backYspeed="0"/>
+  <backLoc backX="0" backY="0"/>
+  <backTransparency>false</backTransparency>
+</Background>
+
+<Background>
+  <ghostbckndFile>images/wall41.jpg</ghostbckndFile>
+  <ghostbckndWidth>1440</ghostbckndWidth>
+  <ghostbckndHeight>720</ghostbckndHeight>
+  <ghostbckndSrcX>0</ghostbckndSrcX>
+  <ghostbckndSrcY>0</ghostbckndSrcY>
+  <ghostbckndSpeed ghostbckndXspeed="0" ghostbckndYspeed="0"/>
+  <ghostbckndLoc ghostbckndX="0" ghostbckndY="0"/>
+  <ghostbckndTransparency>true</ghostbckndTransparency>
+</Background>
+
+
+<PterSprite>
+  <pterFile>images/manright.bmp</pterFile>
+  <pterChunks>25</pterChunks>
+  <pterFrames>4</pterFrames>
+  <pterFrameInterval>3</pterFrameInterval>
+  <pterWidth>480</pterWidth>
+  <pterHeight>120</pterHeight>
+  <pterSrcX>0</pterSrcX>
+  <pterSrcY>0</pterSrcY>
+  <pterSpeed pterXspeed="250" pterYspeed="150"/>
+  <pterLoc pterX="260" pterY="200"/>
+  <pterTransparency>true</pterTransparency>
+</PterSprite>
+
+<PterSprite>
+  <pterleftFile>images/man.bmp</pterleftFile>
+  <pterleftChunks>25</pterleftChunks>
+  <pterleftFrames>4</pterleftFrames>
+  <pterleftFrameInterval>3</pterleftFrameInterval>
+  <pterleftWidth>480</pterleftWidth>
+  <pterleftHeight>120</pterleftHeight>
+  <pterleftSrcX>0</pterleftSrcX>
+  <pterleftSrcY>0</pterleftSrcY>
+  <pterleftSpeed pterleftXspeed="250" pterleftYspeed="150"/>
+  <pterleftLoc pterleftX="260" pterleftY="200"/>
+  <pterleftTransparency>true</pterleftTransparency>
+</PterSprite>
+
+<OrbsData>
+  <orbsNumber>20</orbsNumber>
+  <orbsLocX orbsMinX="0" orbsMaxX="1200"/>
+  <orbsLocY orbsMinY="0" orbsMaxY="700"/>
+  <orbsSpeedX orbsMinXspeed="75" orbsMaxXspeed="150"/>
+  <orbsSpeedY orbsMinYspeed="75" orbsMaxYspeed="150"/>
+</OrbsData>
+
+<OrbData>
+  <redorbFile>images/redball.bmp</redorbFile>
+  <cyanOrbFile>images/orbGreen.bmp</cyanOrbFile>
+  <greenOrbFile>images/orbGreen.bmp</greenOrbFile>
+  <purpleOrbFile>images/orbPurple.bmp</purpleOrbFile>
+  <yellowOrbFile>images/ghost32.bmp</yellowOrbFile>
+  <yellowOrb1File>images/ghost321.bmp</yellowOrb1File>
+  <orangeOrbFile>images/orbOrange.bmp</orangeOrbFile>
+  <orbSrcX>0</orbSrcX>
+  <orbSrcY>0</orbSrcY>
+  <orbWidth>32</orbWidth>
+  <orbHeight>32</orbHeight>
+  <orbLoc orbX="10" orbY="10"/>
+  <orbSpeed orbXspeed="250" orbYspeed="250"/>
+  <orbChunks>10</orbChunks>
+  <orbTransparency>true</orbTransparency>
+  <orbCollisionStrategy>true</orbCollisionStrategy>
+</OrbData>
+
+<sprite>
+  <newFile>images/gm2.JPG</newFile>
+  <newWidth>508</newWidth>
+  <newHeight>64</newHeight>
+  <newSrcX>0</newSrcX>
+  <newSrcY>0</newSrcY>
+  <newSpeedX>0</newSpeedX>
+  <newSpeedY>0</newSpeedY>
+  <newX>190</newX>
+  <newY>260</newY>
+  <newTransparency>true</newTransparency>
+</sprite>
+
+<sprite>
+  <openFile>images/gm1.JPG</openFile>
+  <openWidth>509</openWidth>
+  <openHeight>60</openHeight>
+  <openSrcX>0</openSrcX>
+  <openSrcY>0</openSrcY>
+  <openSpeedX>0</openSpeedX>
+  <openSpeedY>0</openSpeedY>
+  <openX>190</openX>
+  <openY>80</openY>
+  <openTransparency>true</openTransparency>
+</sprite>
+<sprite>
+  <saveFile>images/save.png</saveFile>
+  <saveWidth>80</saveWidth>
+  <saveHeight>80</saveHeight>
+  <saveSrcX>0</saveSrcX>
+  <saveSrcY>0</saveSrcY>
+  <saveSpeedX>0</saveSpeedX>
+  <saveSpeedY>0</saveSpeedY>
+  <saveX>190</saveX>
+  <saveY>260</saveY>
+  <saveTransparency>true</saveTransparency>
+</sprite>
+
+
+<sprite>
+  <helpFile>images/gm3.JPG</helpFile>
+  <helpWidth>509</helpWidth>
+  <helpHeight>60</helpHeight>
+  <helpSrcX>0</helpSrcX>
+  <helpSrcY>0</helpSrcY>
+  <helpSpeedX>0</helpSpeedX>
+  <helpSpeedY>0</helpSpeedY>
+  <helpX>190</helpX>
+  <helpY>350</helpY>
+  <helpTransparency>true</helpTransparency>
+</sprite>
+
+<sprite>
+  <clickoffFile>images/clickoff.png</clickoffFile>
+  <clickoffWidth>40</clickoffWidth>
+  <clickoffHeight>40</clickoffHeight>
+  <clickoffSrcX>0</clickoffSrcX>
+  <clickoffSrcY>0</clickoffSrcY>
+  <clockoffSpeedX>0</clockoffSpeedX>
+  <clockoffSpeedY>0</clockoffSpeedY>
+  <clickoffX>0</clickoffX>
+  <clickoffY>0</clickoffY>
+  <clickoffTransparency>false</clickoffTransparency>
+</sprite>
+
+<sprite>
+  <clickonFile>images/clickon.png</clickonFile>
+  <clickonWidth>40</clickonWidth>
+  <clickonHeight>40</clickonHeight>
+  <clickonSrcX>0</clickonSrcX>
+  <clickonSrcY>0</clickonSrcY>
+  <clickonSpeedX>0</clickonSpeedX>
+  <clickonSpeedY>0</clickonSpeedY>
+  <clickonX>0</clickonX>
+  <clickonY>0</clickonY>
+  <clickonTransparency>false</clickonTransparency>
+</sprite>
+
+
+</GameData>
